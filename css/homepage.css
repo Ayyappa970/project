@@ -1,0 +1,200 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    height: 480vh;
+    background-color:cadetblue;
+    position: relative;
+    overflow-x: hidden;
+}
+#main{
+    width: 100%;
+    height: 750px;
+    background-image: url(../assets/images/home.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% ;
+    position: absolute;
+}
+#navlist{
+    list-style: none;
+    display: flex;
+}
+.nli{
+    position: relative;
+    top: 20px;
+    padding-left: 30px;
+    font-size: 28px;
+}
+.nli:hover{
+    transform: scale(1.2);
+}
+#nali{
+    position: absolute;
+    right: 30px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#sub{
+    width: 500px;
+    height: 500px;
+    /*background-color: brown;*/
+    position: absolute;
+    right: 80px;
+    bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.sli{
+    width: 200px;
+    height:200px;
+   /* background-color: yellow;*/
+    border: 2px solid black;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+    filter: blur(1.2px);
+    
+}
+.sli:hover{
+    color: white;
+    filter: none;
+    transform: scale(1.2);
+}
+#place1{
+    background-image: url(../assets/images/india.jfif);
+}
+#place2{
+    background-image: url(../assets/images/swiz.jfif);
+}
+#place3{
+    background-image: url(../assets/images/japan.jfif);
+}
+#place4{
+    background-image: url(../assets/images/dubai.jfif);
+}
+#h{
+    position: absolute;
+    font-size: 200px;
+    top: 80px;
+    left: 150px;
+}
+#cont{
+    width: 94%;
+    height: 90vh;
+   /* background-color: red; */
+   position: absolute;
+   top: 102vh;
+   left: 3%;
+   overflow: hidden;
+}
+#subcont{
+    width: 100%;
+    height: 90vh;
+    /* background-color: blue; */
+    position: absolute;
+    left: 0px;
+    top: 0vh;
+    clip-path: polygon(58% 0, 100% 0%, 100% 100%, 45% 100%);
+}
+#contt2{
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    overflow: hidden;
+    clip-path: polygon(0 0, 57.5% 0, 44.5% 100%, 0 100%);
+}
+iframe{
+    width: 100%;
+    height: 30vh;
+    position: absolute;
+    top: 0vh;
+    z-index: 5;
+    right: 0px;
+}
+#im{
+    position: absolute;
+    top: 0px;
+    width: 58%;
+    height: 90vh;
+}
+.vid{
+    position: absolute;
+    height: 59.3vh;
+    top: 30.9vh;
+    right: 0px;
+}
+#vd{
+    height: 63vh;
+}
+#q{
+    font-size: 3vw;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    padding: 10px;
+}
+p{
+    position: absolute;
+    z-index: 1;
+    color: bisque;
+    top: 10vh;
+    left: 2vw;
+    right: 42vw;
+    text-indent: 4vw;
+    text-align: justify;
+    font-size: 1.3vw;
+}
+#q1{
+    position: absolute;
+    font-size: 3vw;
+    top: 18vh;
+    z-index: 1;
+    padding: 2vw;
+    color: rgb(235, 43, 43);
+}
+#q2{
+    position: absolute;
+    top: 28vh;
+    right: 49vw;
+    line-height: 5vh;
+    text-align: justify;
+    font-size: 20px;
+    z-index: 1;
+    padding: 2vw;
+    color: white;
+}
+#maincont2{
+    width: 94%;
+    height: 90vh;
+    position: absolute;
+    top: 195vh;
+    left: 3%;
+    z-index: 10;
+}
+#maincont3{
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 93vh;
+    z-index: 10;
+}
+#maincont4{
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 93vh;
+    z-index: 10;
+}

@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#bdy{
+    height: 250vh;
+}
+#box{
+    width: 80%;
+    height: 500px;
+    background-color: brown;
+    position: absolute;
+    top: 860px;
+    left: 10%;
+    right: 10%;
+}
+img{
+    width: 50%;
+    height: 500px;
+}
+#n{
+    position: absolute;
+    left: 780px;
+    top: 40px;
+    font-size: 60px;
+    letter-spacing: 20px;
+}
+#p{
+    position: absolute;
+    top: 130px;
+    left: 650px;
+    right: 25px;
+    bottom: 20px;
+}
+#ad{
+    width: 80%;
+    height: 80px;
+    /*background-color: blue;*/
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 770px;
+}
+#an{
+    font-size: 40px;
+    position: absolute;
+    top: 15px;
+    left: 40%;
+}
+#vp{
+    width: 80%;
+    height: 80px;
+    /*background-color: brown;*/
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 187vh;
+}
+#vn{
+    position: absolute;
+    left: 40%;
+    top: 20px;
+    letter-spacing: 7px;
+    word-spacing: 10px;
+}
+table{
+    position: absolute;
+    top: 1470px;
+    width: 80%;
+    height: 250px;
+    left: 10%;
+    right: 10%;
+    border: 5px solid yellowgreen;
+    border-collapse: collapse;
+}
+th{
+    border: 2px solid black;
+    background-color: white;
+}
+#foot{
+    width: 100%;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+    top: 235vh;
+    right: 0px;
+}
+#bal{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: blue;
+    position: absolute;
+    right: 15px;
+    top: 5px;
+}
+i{
+    width: 20px;
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    font-size: 40px;
+}
+span{
+    position: absolute;
+    left: 50px;
+    top: 15px;
+    font-size: 24px;
+}
+#ar{
+    font-size: 28px;
+    position: absolute;
+    left: 14px;
+    top: 12px;
+}
+#s{
+    width: 20%;
+    height: 50px;
+    /* background-color: blueviolet; */
+    position: absolute;
+    top: 10px;
+    right: 7%;
+}
+#sn{
+    position: absolute;
+    left: 140px;
+}
+#ins{
+    position: absolute;
+    left: 70px;
+}
+#tw{
+    position: absolute;
+    left: 210px;
+}
+#cp{
+    position: absolute;
+    left: 17px;
+    top: 17px;
+    font-size: 25px;
+}
+#fd{
+    font-size: 200px;
+}

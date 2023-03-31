@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/loginpage.css">
+    <script src="./javascript/loginpage.js"></script>
+</head>
+<body id="bdy">
+        <div id="main">
+            <div id="sub">
+               <form id="fom">
+                <h1>Login</h1>
+                <div id="mail">
+                    <input type="email" id="email" placeholder="Enter your Email">
+                </div>
+                <div id="pass">
+                    <input type="password" id="pas" placeholder="Enter your password">
+                    <img src="./assets/logos/eyesclose.jfif" id="img" onmousedown="passopen()" onmouseup="passclose()">
+                </div>
+                <h2 id="result"></h2>
+                <button type="button" id="sbt" onclick="fun()">Submit</button>
+               </form>
+            </div>
+        </div>
+</body>
+</html>
